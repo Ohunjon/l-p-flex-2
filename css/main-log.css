@@ -1,0 +1,59 @@
+/*all*/
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("../fonts/open-sans/OpenSans-Bold.ttf");
+  font-style: normal; }
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("../fonts/open-sans/OpenSans-Light.ttf");
+  font-style: normal; }
+@font-face {
+  font-family: 'OpenSans-Italic';
+  src: url("../fonts/open-sans/OpenSans-Italic.ttf");
+  font-style: normal; }
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/open-sans/OpenSans-Regular.ttf");
+  font-style: normal; }
+body {
+  /* Remember to use the other versions for IE 10 and older browsers! */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3A6073; }
+
+.m-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #ffffff;
+  width: 330px;
+  height: 400px;
+  border-radius: 5px; }
+
+/*all*/
+/* Medium Devices, Desktops */
+@media screen and (max-width: 830px) {
+  nav .menu .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    align-items: center;
+    border-top: 1px solid rgba(222, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); } }
+/* Extra Small Devices, Phones */
+@media screen and (max-width: 500px) {
+  header .m-d-l .logo {
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; }
+
+  nav .menu i {
+    color: #ffffff;
+    font-size: 29px;
+    padding: 7px 10px;
+    display: block; }
+
+  nav .menu i:hover {
+    color: #90c742; } }
+
+/*# sourceMappingURL=main-log.css.map */

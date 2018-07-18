@@ -1,0 +1,33 @@
+﻿body{
+  margin: 0;
+  padding: 0;
+  font-family: OpenSans;
+  font-style: normal;
+  background-color:#f4f7fb;
+
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 10px;
+}
+.flex{
+  display:flex;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+}
+.img {
+  max-width: 100%;
+  height: auto;
+
+}
+
+section{
+  margin: 10px 0;
+//background-color: #92a0b4;
+}

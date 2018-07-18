@@ -1,0 +1,25 @@
+@import "vars";
+//@import "base.scss";
+@import "fonts";
+body {
+  /* Remember to use the other versions for IE 10 and older browsers! */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ // min-height: 100%;
+background-color:  #3A6073;
+}
+.m-container{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  //margin-top: 50%;
+  background-color: $c-w;
+  width: 330px;
+  height: 400px;
+  border-radius: 5px;
+}
+
+
+
+@import "media";
